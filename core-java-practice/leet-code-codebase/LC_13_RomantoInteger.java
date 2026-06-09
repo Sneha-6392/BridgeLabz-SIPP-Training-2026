@@ -20,3 +20,14 @@ class Solution {
         return res + roman.get(s.charAt(s.length() - 1));        
     }
 }
+
+public class LC_13_RomantoInteger {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        Solution obj = new Solution();
+        int result = obj.romanToInt(s);
+        System.out.println(result);
+        sc.close();
+    }
+}

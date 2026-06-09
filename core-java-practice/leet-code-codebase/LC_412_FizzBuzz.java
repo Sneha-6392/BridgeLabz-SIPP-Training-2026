@@ -20,3 +20,14 @@ class Solution {
         return fizzBuzz;
     }
 }
+
+public class LC_412_FizzBuzz {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        Solution obj = new Solution();
+        List<String> result = obj.fizzBuzz(n);
+        System.out.println(result);
+        sc.close();
+    }
+}
